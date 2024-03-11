@@ -1,0 +1,122 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    margin: 15px;
+}
+
+body{
+    background-image: url(../img/more_voda_volny_93831_1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 30px;
+    display: block;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.wrapper{
+    max-width: 500px;
+    min-height: 50vh;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 15px auto;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120%;
+}
+
+    .wrapper h2{
+        text-align: center;
+        font-size: 40px;
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: bold;   
+        font-style: normal;
+        color: #222222;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+
+
+.wrapper div input {
+    /* background: transparent; */
+    border: none;
+    border-bottom: 1px solid #222222;
+    outline: none;
+}
+
+
+
+p{
+    font-family: "IBM Plex Sans", sans-serif;
+        font-weight: medium;   
+        font-style: normal;
+        margin-top: 15px;
+}
+
+input[type="text"],
+input[type="password"]{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    cursor: pointer;
+    line-height: 25px;
+    background: transparent;
+    
+}
+
+
+input[type="submit"]{
+    text-shadow: 2px 2px 5px rgba(251, 251, 251, 0.7);
+    padding: 9px;
+    background-color: rgba(0, 31, 63, 0.6);
+    margin: 20px auto;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: normal;
+    color: #000000;
+    border: 2px solid rgba(33, 33, 42, 0.8);
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 50%;
+    cursor: pointer;
+    
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(255, 255, 255, 0.5); /* Green */
+    color: rgb(0, 0, 0);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    text-shadow: 2px 2px 5px rgba(0, 31, 63, 0.9);
+}
+
+
+section{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+
+
+
+
